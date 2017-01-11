@@ -154,7 +154,7 @@ static NSString *const kSubtitleTrackDefaultLanguage = @"en";
     if (!_castDevice)
     {
         UInt32 devicePort = (UInt32) self.serviceDescription.port;
-        _castDevice = [[GCKDevice alloc] initWithIPAddress:self.serviceDescription.address servicePort:devicePort];
+//        _castDevice = [[GCKDevice alloc] initWithIPAddress:self.serviceDescription.address servicePort:devicePort];
     }
     
     if (!_castDeviceManager)
